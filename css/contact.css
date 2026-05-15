@@ -1,0 +1,67 @@
+.secao-contact{
+    padding: 75px 27px;
+}
+.secao-contact .textos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 48px;
+}
+.secao-contact .textos h1{
+    font-size: 28px;
+    font-family: 'Poppins';
+    color: #000000CC;
+    flex-basis: 100%;
+    padding-bottom: 32px;
+}
+.secao-contact .textos div{
+    background-color: #f8f9fa;
+    flex-basis: 24%;
+    color: #999999;
+    font-size: 15px;
+    padding: 24px;
+    padding-bottom: 40px;
+    line-height: 27px;
+}
+.secao-contact .textos div span{
+    color: black;
+    font-size: 15px;
+}
+.contact-form{
+    display: flex;
+    justify-content: space-between;
+}
+.contact-form form{
+    background-color: #f8f9fa;
+    padding: 20%;
+    width: 48%;
+    
+}
+.mapa-erro{
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    width: 48%;
+    height: 85vh;
+    background-color: #e8eaed;
+}
+.mapa-erro h1,
+.mapa-erro p{
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: #3C4043;
+}
+.mapa-erro h1{
+    margin-bottom: 20px;
+}
+.mapa-erro p{
+    font-size: 12px;
+}
+.mapa-erro div{
+    position: relative;
+    width: 80%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}

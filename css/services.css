@@ -1,0 +1,37 @@
+.secao-services-items{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5%;
+    height: 100vh;
+}
+.container-service{
+    flex-basis: 20%;
+    height: 100px;
+    flex-basis: 33%;
+    padding: 24px 15px;
+}
+.container-service .div-texto{
+    padding:8px;
+    margin-top: 8px;
+}
+.container-service .div-imagem{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-service h1{
+    font-size: 20px;
+    font-family: 'Poppins';
+    margin-bottom: 16px;
+    color: #000000CC;
+    font-weight: 600;
+}
+.container-service p{
+    font-size: 15px;
+    margin-bottom: 16px;
+    color: #999999;
+}

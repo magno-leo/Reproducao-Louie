@@ -1,0 +1,25 @@
+.secao-numbers{
+    height: 30vh;
+    background-color: #242423;
+    padding-left:5%;
+}
+.secao-numbers>div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 80%;
+}
+.secao-numbers p{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28.8px;
+    color: #FFFFFFB3;
+}
+.secao-numbers h1{
+    font-size: 40px;
+    color: #CCB78F;
+    font-weight: normal;
+}

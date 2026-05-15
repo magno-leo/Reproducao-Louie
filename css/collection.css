@@ -1,0 +1,58 @@
+
+.secao-colection-fotos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 2% 0%;
+}
+.secao-colection-fotos>div{
+    position: relative;
+    flex-basis: 30%;
+    max-width: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    margin: 10px;
+}
+.secao-colection-fotos>div>div{
+    position: absolute;
+    bottom: 24px;
+    left: 24px;
+    opacity: 0;
+}
+.secao-colection-fotos>div>div h2{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 8px;
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+.secao-colection-fotos>div>div p{
+    font-size: 12px;
+}
+.secao-colection-fotos>div::before{
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    transition: opacity 0.4s ease;
+}
+.secao-colection-fotos>div:hover::before{
+    opacity: 1;
+}
+.secao-colection-fotos>div:hover>div{opacity: 1;}
+#imagem-1{background-image: url(../img/shared/image_1.jpg);}
+#imagem-2{background-image: url(../img/shared/image_2.jpg);}
+#imagem-3{background-image: url(../img/shared/image_3.jpg);}
+#imagem-4{background-image: url(../img/shared/image_4.jpg);}
+#imagem-5{background-image: url(../img/shared/image_5.jpg);}
+#imagem-6{background-image: url(../img/shared/image_6.jpg);}
+#imagem-7{background-image: url(../img/shared/image_7.jpg);}
+#imagem-8{background-image: url(../img/shared/image_8.jpg);}
+#imagem-9{background-image: url(../img/collection/image_9.jpg);}
+#imagem-10{background-image: url(../img/collection/image_10.jpg);}
+#imagem-11{background-image: url(../img/collection/image_11.jpg);}
+#imagem-12{background-image: url(../img/collection/image_12.jpg);}
