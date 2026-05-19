@@ -29,17 +29,18 @@
     font-size: 18px;
     margin-bottom: 8px;
 }
-.texto-direita p{
-    color: #999999;
-    line-height: 27px;
-    margin-bottom: 24px;
-}
+
 .texto-direita a{
     color: #CCB78F;
     font-size: 15px;
     text-decoration: none;
 }
-
+.texto-direita p{
+    color: #999999;
+    line-height: 27px;
+    margin-bottom: 24px;
+    font-size: 15px;
+}
 .primeirop{
     color: #BFBFBF;
     font-size: 14px;
@@ -47,13 +48,13 @@
 }
 .primeirop span{
     color: #BFBFBF;
-    font-size: 14px;
-    margin-right: 15px;
+    font-size: 13px;
+    margin-right: 10px;
 }
 .primeirop a{
     color: black;
-    margin-right: 15px;
-    font-size: 14px;
+    margin-right: 10px;
+    font-size: 13px;
     text-decoration: none;
 }
 .container-direita{
@@ -115,4 +116,50 @@
 .aread::after{
     content: url(../img/blog/seta-direita.png);
 
+}
+.articles>div{
+    display: flex;
+}
+.articles>div h2{
+    font-size: 16px;
+    line-height: 24px;
+    color: black;
+    font-weight: normal;
+    transition: all 0.4s ease;
+}
+.articles>div h2:hover{
+    color: #CCB78F;
+}
+.container-footer.container-2.direita-blog.articles>div p{
+    font-size: 12px;
+    color: #808080;
+}
+.first-p.calendar::before{
+    content: url(../img/blog/calendar-icon.png);
+    vertical-align: middle;
+}
+.first-p.name::before{
+    content: url(../img/blog/user-icon.png);
+    vertical-align: middle;
+    margin: 0px 5px;
+}
+.first-p.number::before{
+    content: url(../img/blog/chat-icon.png);
+    vertical-align: middle;
+    margin: 0px 5px;
+}
+.parte-texto{
+    margin-left: 20px;
+    width: 60%;
+}
+.parte-texto div{
+    display: flex;
+    flex-wrap: wrap;
+}
+.articles .parte-imagem{
+    background-image: url(../img/shared/image_1.jpg);
+    height: 80px;
+    width: 80px;
+    background-size: cover;
+    background-position: center;
 }
