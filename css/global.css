@@ -261,6 +261,7 @@ footer>div{
 .container-footer.container-1>div{
     display: flex;
     flex-wrap: wrap;
+    width: 270px;
 }
 .container-footer.container-1>div>div{
     height: 90px;
