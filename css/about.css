@@ -1,5 +1,5 @@
 .secao-numbers{
-    height: 30vh;
+    height: 20vh;
     background-color: #242423;
     padding-left:5%;
 }
@@ -22,4 +22,11 @@
     font-size: 40px;
     color: #CCB78F;
     font-weight: normal;
+}
+.secao-bio{
+    height: 70vh;
+}
+.containers-apresentacao.container-1{
+    background-image: url(../img/shared/author.jpg); 
+    background-position: center;
 }
