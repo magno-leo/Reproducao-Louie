@@ -1,9 +1,9 @@
 .secao-blog-geral{
     padding: 75px 27px;
     display: flex;
+    justify-content: center;
 }
 .container-esquerda{
-    
     color: #000000;
     flex-basis: 66%;
 }
@@ -17,6 +17,7 @@
 }
 .imagem-esquerda{
     width: 50%;
+    max-width: 365px;
     height: 300px;
     background-image: url(../img/shared/image_1.jpg);
     background-repeat: no-repeat;
@@ -40,6 +41,7 @@
     line-height: 27px;
     margin-bottom: 24px;
     font-size: 15px;
+    font-weight: 500;
 }
 .primeirop{
     color: #BFBFBF;
@@ -56,6 +58,36 @@
     margin-right: 10px;
     font-size: 13px;
     text-decoration: none;
+}
+.container-esquerda .navegacao-inferior{
+    width: 50%;
+    display: block;
+}
+.navegacao-inferior ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.navegacao-inferior li{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ccb78f;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navegacao-inferior p{
+    color: #ccb78f;
+}
+#nav-selecionado{
+    background-color: #ccb78f;
+}
+#nav-selecionado p{
+    color: white;
+}
+#seta-esquerda-nav{
+    transform: rotate(180deg);
 }
 .container-direita{
     flex-basis: 33%;
@@ -169,7 +201,7 @@
 }
 .tags>div>div{
     border: 1px solid #cccccc;
-    padding: 4px 10px;
+    padding: 0px 10px;
     margin-bottom: 7px;
     margin-right: 4px;
     border-radius: 4px;    
@@ -193,7 +225,6 @@
     background-position: center;
     width: 90%;
     margin-left: 5%;
-    height: 100px;
     position: relative;
 }
 .container-footer.container-2.direita-blog.montanha::before{
@@ -208,3 +239,49 @@
     position: relative;
     z-index: 1;
 }
+.container-footer.container-2.direita-blog.montanha p{
+    font-size: 15px;
+    color: #FFFFFFB3;
+    line-height: 27px;
+    z-index: 1;
+    position: relative;
+    width: 70%;
+    margin-bottom: 15px;
+}
+.container-footer.container-2.direita-blog.montanha input,
+.container-footer.container-2.direita-blog.montanha div{
+    width: 100%; 
+    height: 52px;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 8px;
+}
+.entrada-texto-montanha{
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: rgba(255, 255, 255, 0.7);
+    background-color: #00000000;
+    padding: 0.375rem 0.75rem;
+    font-size: 16px;
+}
+.entrada-texto-montanha::placeholder{
+    color: rgba(255, 255, 255, 0.7);
+}
+.entrada-botao-montanha{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.entrada-botao-montanha h3{
+    font-size: 16px;
+    font-weight: normal;
+    color: black;
+}
+.container-footer.container-2.direita-blog.paragraph p{
+    color: #999999;
+    line-height: 27px;
+    margin-bottom: 24px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
